@@ -31,6 +31,9 @@ robot_daemon_rm_req = 5102
 
 robot_other_setdo_req = 6001
 
+robot_task_translate_req = 3055
+robot_task_turn_req = 3056
+
 
 # 0x5A + Version + serierNum + jsonLen + reqNum + rsv
 PACK_HEAD_FMT_STR = '!BBHLH6s'
